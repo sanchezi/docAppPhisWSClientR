@@ -1,0 +1,49 @@
+.content-wrapper, .right-side {
+	background-color: #e1e1e1;
+}
+.equation {
+	font-family: "Computer Modern";
+	font-size: 20px;
+	font-style: oblique;
+}
+li.active, .box {
+	border-top-color: #BCA36A !important;
+}
+
+.welcome {
+  text-align: center;
+	font-size: 22px;
+	height: 100%;
+}
+span.fLetter {
+	color: #444492 !important;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#binPoPreComp_ratio {
+	padding-top: 1px;
+}
+
+.mynote {
+	color: #24a819 !important;
+	font-family: "Courier New";
+}
+
+.wrongParam{
+	color: red !important;
+}
+
+input:disabled {
+    text-decoration: line-through #FF3028;
+}
+
+table.dataTable tbody tr {
+	background-color: white;
+}
+table.dataTable tbody tr.selected td {
+	background-color: #acb317 !important;
+}
+.dt-buttons {
+	margin-left: 20px;
+}
