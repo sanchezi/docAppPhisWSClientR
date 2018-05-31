@@ -61,7 +61,9 @@ output$token1<-renderPrint({
 
 output$token2<-renderDataTable({
   if (is.null(whichCategory()[[2]]$data)){
-    print("Category not available for this experiment!")
+    mess<-as.data.frame("Category not available for this experiment!")
+    colnames(mess)<-"Message"
+    print(mess)
   } else {
     print(whichCategory()[[2]]$data)
   }
@@ -69,7 +71,9 @@ output$token2<-renderDataTable({
 
 output$token3<-renderDataTable({
   if (is.null(whichCategory()[[3]]$data)){
-    print("Category not available for this experiment!")
+    mess<-as.data.frame("Category not available for this experiment!")
+    colnames(mess)<-"Message"
+    print(mess)
   } else {
     print(whichCategory()[[3]]$data)
   }
@@ -77,7 +81,9 @@ output$token3<-renderDataTable({
 
 output$token4<-renderDataTable({
   if (is.null(whichCategory()[[4]]$data)){
-    print("Category not available for this experiment!")
+    mess<-as.data.frame("Category not available for this experiment!")
+    colnames(mess)<-"Message"
+    print(mess)
   } else {
     print(whichCategory()[[4]]$data)
   }
@@ -85,7 +91,9 @@ output$token4<-renderDataTable({
 
 output$token5<-renderDataTable({
   if (is.null(whichCategory()[[5]]$data)){
-    print("Category not available for this experiment!")
+    mess<-as.data.frame("Category not available for this experiment!")
+    colnames(mess)<-"Message"
+    print(mess)
   } else {
     print(whichCategory()[[5]]$data)
   }
@@ -93,7 +101,9 @@ output$token5<-renderDataTable({
 
 output$token6<-renderDataTable({
   if (is.null(whichCategory()[[6]]$data)){
-    print("Category not available for this experiment!")
+    mess<-as.data.frame("Category not available for this experiment!")
+    colnames(mess)<-"Message"
+    print(mess)
   } else {
     print(whichCategory()[[6]]$data)
   }

@@ -9,7 +9,7 @@
 
 tabItem(tabName="subToken",
         fluidRow(
-          box(id="token1", class="token",width=12, height = 700,title="Token to access the web service",
+          box(id="token1", class="token",width=12, height = 600,title="Token to access the web service",
               verbatimTextOutput("token1")
           ),
           box(id="token2", class="token",width=12, height = 750,title="Category Imagery",
