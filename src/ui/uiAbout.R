@@ -3,7 +3,7 @@
 # Objective:  
 # Author   : I.Sanchez
 # Creation : 29/05/2018
-# Update   : 31/05/2018
+# Update   : 22/06/2018
 #------------------------------------------------------------------
 
 
@@ -17,7 +17,7 @@ tabItem(tabName="about",
                     HTML("<span class=\"fLetter\">WS access</span>"),
                     HTML("<span> to scroll down the menu</span>")
                   ),
-                  p("Enter a ",tags$b("username, password, server and port address")," if you want a private access to the phenomeapi WS"),
+                  p("Enter a ",tags$b("username, password, a path to the WS")," if you want a private access to the phenomeapi WS"),
                   p("Keep the default",tags$b("username and password")," if you want a public access to the WS"),
                   p("Please, give an",tags$b(" experiment URI")," for which you want to know the available variables"),
                   p("Click on the", HTML("<span class=\"fLetter\">submit button</span>"),", each time you change your settings"),

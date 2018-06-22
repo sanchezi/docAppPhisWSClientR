@@ -3,7 +3,7 @@
 # Objective:  
 # Author   : I.Sanchez
 # Creation : 29/05/2018
-# Update   : 31/05/2018
+# Update   : 22/06/2018
 #------------------------------------------------------------------
 
 observe({
@@ -17,7 +17,7 @@ observe({
     initializeClientConnection(apiID="ws_public")
     print("public")
   } else {
-    initializeClientConnection(apiID="ws_private",url =input$serverIn, port =input$portIn)
+    initializeClientConnection(apiID="ws_private",url =input$pathWSIn)
     print("private")
   }
 })

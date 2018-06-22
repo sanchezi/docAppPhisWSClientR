@@ -19,7 +19,7 @@ install.packages("phisWSClientR")
 How to use this documentation App?
 
 * Please click on __WS access__ to scroll down the menu
-* Enter a __username, password, server and port address__ if you want a __private access__ to the phenomeapi WS
+* Enter a __username, password, a path to the WS__ if you want a __private access__ to the phenomeapi WS
 * Keep the default username and password if you want a __public access__ to the WS
 * Please, give an __experiment URI__ for which you want to know the available variables
 * Click on the __submit button__ each time you change your settings

@@ -3,7 +3,7 @@
 # Objective: design inspired by J.Diot!!
 # Author   : I.Sanchez
 # Creation : 29/05/2018
-# Update   : 31/05/2018
+# Update   : 22/06/2018
 #------------------------------------------------------------------
 
 ## packages --------------------------------------------------------------------
@@ -33,8 +33,7 @@ shinyUI(
                                                       menuSubItem("Token required", tabName = "subToken"),
                                                       textInput("userIn", "username:",value ="guestphis@supagro.inra.fr"),
                                                       passwordInput("pwdIn", "pwd:",value = "guestphis"),
-                                                      textInput("serverIn", "Only if private access - address:",value ="XXX"),
-                                                      textInput("portIn", "Only if private access - port:",value ="XXXX"),
+                                                      textInput("pathWSIn", "Only if private access - url:",value ="XX.XX.XX.XX:XXXX/aPathToWS"),
                                                       textInput("experimentURIIn", "Experiment:",width=380,
                                                                 value = "http://www.phenome-fppn.fr/m3p/ARCH2017-03-30"),
                                                       submitButton("Load server")
