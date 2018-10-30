@@ -16,7 +16,7 @@ install.packages("DT")
 install.packages("phisWSClientR")
 ```
 
-You can find the phisWSClientR packages [here](https://github.com/sanchezi/phisWSClientR).
+You can find the phisWSClientR package [here](https://github.com/sanchezi/phisWSClientR).
 
 How to use this documentation App?
 
