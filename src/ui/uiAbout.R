@@ -3,13 +3,13 @@
 # Objective:  
 # Author   : I.Sanchez
 # Creation : 29/05/2018
-# Update   : 22/06/2018
+# Update   : 30/10/2018
 #------------------------------------------------------------------
 
 
 tabItem(tabName="about",
         fluidRow(
-          box(width=12, height = 420,
+          box(width=12, height = 320,
               div(id="about2", class="about",
                   style="margin: 0px 0px 50px 0px;",
                   h1("How to use this documentation App?"),
@@ -27,7 +27,7 @@ tabItem(tabName="about",
                     " colname of each dataset")
               )
           ),
-          box(width=12, height = 200,
+          box(width=12, height = 100,
               div(id="about2", class="about",
                   style="margin: 0px 0px 50px 0px;",
                   h1("Credits:"),

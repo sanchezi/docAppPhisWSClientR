@@ -25,6 +25,8 @@ How to use this documentation App?
 * Click on the __submit button__ each time you change your settings
 * You can retrieve the variable names usable in the __phisWSClientR get()__ functions in the __observationVariableId__ colname of each dataset
 
+![welcome](www/welcomeUR.png)
+
 # Citation
 
 You should cite the **phisWSClientR** package as well as the **shiny** and **shinydashboard** ones:
