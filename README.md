@@ -1,5 +1,6 @@
 # docAppPhisWSClientR
 
+2021 Obsolete
 phenomeapi web service documentation
 
 This application gives the variables currently available via the **phenomeapi web service**.
